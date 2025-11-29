@@ -328,10 +328,10 @@ body{
 .steps-section {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding: 40px 20px;
+    gap: 20px;
+    padding: 30px 20px;
     background: #ffffff;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .step-box {
@@ -340,8 +340,8 @@ body{
 }
 
 .step-box img {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     margin-bottom: 12px;
 }
 
@@ -423,11 +423,142 @@ body{
 }
 .process-headings .sub-title {
     color: #0097a7;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 .process-headings h2 {
     font-size: 26px;
     line-height: 1.3;
     color: #022b53;
+}
+.contactus-box {
+    height: 70px;
+    width: 500px;
+    margin-left: 480px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;   
+    background-color: #022b53;
+    color: white;
+    
+}
+.contactus-box a {
+    color: #097aaf;
+    text-decoration: none;
+}
+
+.talk-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 40px;
+    background-color: #c8e9fb;
+    gap: 28px;
+}
+.talk-left{
+    flex: 0 0 42%;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+.talk-left img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    display: block;
+    margin-left: 60px;
+    
+}
+
+
+.talk-subtitle{
+    color: #0caab7;
+    font-size: 18px;
+    margin-bottom: 5px;
+}   
+
+.talk-title{
+    font-size: 32px;
+    color: #04345c;
+    margin-bottom: 12px;
+    line-height: 1.15;
+}
+
+
+.talk-phone {
+    background: white;
+    border: 2px solid #0caab7;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #022b53;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.talk-phone i{
+    color: #022b53;
+}
+.talk-consult {
+    background: #00c4e6;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    cursor :pointer;
+    font-size: 14px;
+}
+.talk-section.tight{
+    gap: 3px;
+}
+@media (max-width: 900px) {
+    .talk-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .talk-right {
+        max-width: 100%;
+    }
+
+    .talk-left img {
+        width: 300px;
+    }
+
+    .talk-buttons {
+        justify-content: right;
+    }
+}
+.talk-right {
+    max-width: 50%;
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.talk-text {
+    color: #6d6d6d;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    max-width: 550px;
+}
+
+.talk-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+.talk-buttons {
+    margin-left: 0px;
 }
